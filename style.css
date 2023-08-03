@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    letter-spacing: 4px;
+}
+
+header {
+    padding: 40px;
+    background-image:url(https://images.unsplash.com/photo-1533683083439-1a776a5653cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    opacity: 0.89;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+a:hover, a:active{
+    font-size: 20px;
+     color: rgb(83, 178, 241); 
+  }
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+h1 {
+    font-family: Impact;
+
+}
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    min-height: 100vh;
+   
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+img {
+    padding: 10px;
+}
+img:hover:active
+{
+ transform: scale(0.5px);
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.subscribe{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 20vh;
+}
+.form-box{
+    padding: 10px;
+    border-radius: 2px;
+    background: #ececec;
+    box-shadow: 10px 10px 15px #c7c4c4, -10px -10px 15px #fff;
+}
+.form-box input{
+    font-size: 18px;
+    color: #000;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background: #ececec;
+}
+.form-box button{
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    background: #a0d847;
+    cursor: pointer;
+    transition: 0.3s; 
+}
+.form-box button:hover{
+    background: rgb(37, 163, 58);
+}
+
+.case .genre
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    transition: 0.4s;
+    
+}
+.genre:hover
+{
+    z-index: 1;
+    transform: scale(1.10);
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.514);
+}
+.case
+{
+    position: relative;
+    width: 1100px;
+    display: flex;  
+}
+.carousel{
+    background-image: url(https://cdn1.epicgames.com/ue/product/Screenshot/Scene%20Render%202-1920x1080-0dcdf1e1cdc13c7cf34da571493b7f72.png?resize=1&w=1920);
+    opacity: calc(0.85);
+    background-size: contain;
+}
+
+  .carousel-cell {
+    width: 86%;
+    margin-right: 10px;
+    border-radius: 5px;
+    display: flex;
+   }
+
+   .quote p{
+       font-style: oblique;
+       font-size: 20px;
+   }
